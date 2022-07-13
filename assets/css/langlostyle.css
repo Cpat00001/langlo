@@ -1,0 +1,484 @@
+body{
+    margin:0;
+    /* background-color:rgb(211, 202, 202); */
+    background-color:#b3b0ac;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+    overflow:hidden;
+}
+.page-id-53{
+    background-color: #e7e6e6;
+}
+.page-id-56{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
+.page-id-58{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
+.page-id-60{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
+.page-id-48{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
+.page-id-62{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
+/* navbar */
+.langlo_navbar{
+    height:auto;
+    margin-top:0;
+}
+.navbar-nav{
+    /* border: 2px solid black; */
+    font-family: 'Playfair Display', serif;
+    list-style:none;
+    width: 100%;
+    display:list-item;
+    text-align:right;
+    z-index:100;
+}
+.navbar-nav li{
+    display: inline;
+    font-size:1.0em; 
+    margin-right:1.0em;
+    margin-left:1.0em;
+}
+.navbar-nav li a{
+    color:black;
+    text-decoration:none;
+    padding:1%;
+    font-weight:500;
+}
+/* front-page */
+.front_row{
+    /* border:2px solid green; */
+}
+.front_left{
+    background-image:url('http://localhost:8080/langlo/wp-content/uploads/2022/06/langlo_kursy_szkolenia_jezykowe.png');
+    background-size:cover;
+    background-repeat:no-repeat; 
+    /* background-position:-100px 0px; */
+    height:100vh;
+    width:100%;
+    top:-10em;
+    background-position:-200px 20px;
+    z-index:-100;
+    background-color:#b3b0ac;
+    /* border:2px solid black; */
+}
+.front_page_txt{
+    position:absolute;
+    /* border:3px solid red; */
+    left:42%;
+    top:20%;
+}
+.front_txt_wrapper{
+    text-align:left;
+    font-weight: 600;
+    font-size:8vw;
+    color:white;
+    z-index:100;
+}
+.front_txt_styling{
+    text-shadow:2px 2px 2px #b3b0ac;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Nunito Sans', sans-serif;
+}
+.front_right{
+    min-height:110vh;
+    top:-10em;
+    z-index:-100;
+    background-color:#b3b0ac;
+}
+/* OFERTA ZAJEC PODSTRONA */
+.oferta_zajec_row{
+    margin-right: 0px;
+    margin-left:0px;
+}
+.oferta_zajec_huge_txt{
+    /* border: 2px solid white;  */
+    height:65vh;
+    padding-left:10%;
+    padding-right:10%;
+    padding-top:10%;
+    padding-bottom:10%;
+    /* border:1px solid black; */
+}
+.oferta_zajec_huge_txt h1{
+    font-size:6.0em;
+    color:white;
+    font-weight:600;
+    text-shadow:2px 2px 2px grey;
+}
+.zajecia_online{
+    border: 2px solid white;
+    text-align:center;
+    
+}
+.zajecia_online p{
+    /* font-size:1.5em; */
+    font-weight:600;
+    margin-top:2.0em;
+    margin-bottom:2.0em;
+}
+.text_autora_container{
+    border:2px solid white;
+    margin-left:-10px;
+}
+.oferta_zajec_txt_autora{
+    line-height:2.2;
+    color: #212529;
+    font-size:1.0em;
+    
+}
+.oferta_zajec_txt_autora ul li{}
+
+ /* cennik-zajec-posts-loop.php */
+ .cennik_zajec_usluga_box{
+    margin-bottom: 0.15rem;
+    line-height: 0.8;
+    border: transparent;
+    /* border: 1px solid white; */
+    /* border-top: transparent; */
+    box-shadow:3px 1px 3px 3px rgb(233, 218, 228);
+    background:linear-gradient(45deg, #e7e6e6, #d8d7d5); 
+ }
+ .cennik_zajec_arrow_container{
+    width:40%;
+    /* border:2px solid red; */
+}
+.cennik_zajec_font_awsome_arrow{
+    font-size:3em;
+    color: white;
+}
+.cennik_zajec_usluga_container{
+    width:60%;
+    /* border:2px solid green; */
+    font-size:1.3em;
+    padding-left:1.0em;
+}
+
+/* page-GODZINY-ZAJEC.php */
+#godziny_zajec_text_autor_container{
+    padding-top:50px;
+    padding-bottom:150px;
+    padding-left:6vw;
+}
+/* page-O-MNIE.php */
+.o_mnie_img_container{
+    margin-left:2vw;
+    image-rendering: auto;
+    background-image:url('http://127.0.0.1:8080/langlo/wp-content/uploads/2022/07/Langlo_oMNie_foto.jpg');
+    background-size:contain;
+    background-repeat:no-repeat;
+    background-position:center;
+    min-height:457px;
+    height:auto;
+    /* background-color:rgb(211, 209, 204); */
+    box-shadow:10px 10px 5px 5px rgb(184, 182, 182); 
+}
+.oMnie_header{
+    font-size:4.0em;
+    font-weight:900;
+    color:white;
+}
+.o_mnie_content{
+    font-weight:500;
+}
+.oMnie_headerMobile{
+    font-size:4.0em;
+    font-weight:900;
+    color:white;
+    /* position:relative; */
+    /* margin-top:-40%; */
+    z-index:100;
+}
+.oMnie_headerMobile_Container{
+    background-color:#b3b0ac;
+    opacity:0.5;
+    padding-top:5%;
+    padding-bottom:5%;
+    position:relative;
+    margin-top:-40%;
+    z-index:100;
+}
+/* page-kontakt.php */
+.kontakt_form_container{
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+.formularz_kontaktowy{
+    border: 2px solid white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.form_txt{
+    font-size: 2.0em;
+    font-weight:950;
+    text-transform: uppercase;
+    margin-bottom:-10px;
+}
+.form_txt_odpowiadam{
+    font-size: 0.7em;
+    font-weight:900;
+}
+.form-group{
+    margin-bottom: 0.1rem;
+}
+.formLabelStyle{
+    font-size:1.8em;
+    font-weight:950;
+}
+.form-control{
+    background-color:#e7e6e6;
+    color:black;
+    font-size:1.0em;
+    border: 1px solid transparent;
+    border-bottom:2px solid #dddcdc;
+    /* box-shadow:2px 0px 1px 3px grey;  */
+}
+.btn-secondary {
+    color: #fff;
+    text-shadow:2px 2px 2px grey;
+    background-color: #e7e6e6;
+    border-color: #dddcdc;
+    border-bottom:2px solid #dddcdc;
+    font-size: 1.8em;
+    font-weight:950;
+    letter-spacing:0.1em;
+}
+.btn-secondary:hover{
+    border-color: #dddcdc;
+    background-color:#e7e6e6
+}
+@media (min-width: 991.98px){
+    .front_left{
+        height:110vh;
+        top:-10em;
+        /* background-position:0% 0px; */
+        z-index:-100;
+        background-color:#b3b0ac;
+    }
+}
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .front_left{
+        height:90vh;
+        top:0em;
+        background-position:-300px 0px;
+        z-index:-100;
+        background-color:#b3b0ac;
+    }
+    .navbar-light .navbar-toggler {
+        border-color:transparent;
+    }
+    .front_page_txt{
+        position:absolute;
+        /* border:3px solid red; */
+        left:42%;
+        top:20%;
+        font-size:6vw;
+    }
+    .front_txt_wrapper{
+        text-align:left;
+        font-weight: 600;
+        font-size:8vw;
+        color:white;
+        z-index:100;
+    }
+     /* OFERTA_PAGE */
+     .page-id-53{
+        /* background-color: powderblue; */
+        background-color: #e7e6e6;
+        min-height:110vh;
+        height:auto;
+    }
+        /* OFERTA ZAJEC PODSTRONA */
+    .oferta_zajec_row{
+        margin-right: 0px;
+        margin-left:0px;
+    }
+    .oferta_zajec_huge_txt{
+        /* border: 2px solid white;  */
+        height:30vh;
+        padding-left:1%;
+        padding-right:1%;
+        padding-top:5%;
+        padding-bottom:5%;
+        text-align:center;
+        /* border:1px solid black; */
+    }
+    .oferta_zajec_huge_txt h1{
+        font-size:4.0em;
+        color:white;
+        font-weight:600;
+        text-shadow:2px 2px 2px grey;
+    }
+    .zajecia_online{
+        border: 2px solid white;
+        text-align:center;
+        margin-bottom:1%;
+        
+    }
+    .zajecia_online p{
+        /* font-size:1.5em; */
+        font-weight:600;
+        margin-top:1.0em;
+        margin-bottom:1.0em;
+    }
+    .text_autora_container{
+        border:transparent;
+        margin-left:0px;
+    }
+    .oferta_zajec_txt_autora{
+        line-height:3.5;
+        color: #212529;
+        font-size:0.6em;
+    }
+     /* cennik-zajec-posts-loop.php */
+     .cennik_zajec_arrow_container{
+        width:40%;
+        /* border:2px solid red; */
+    }
+    .cennik_zajec_usluga_container{
+        width:60%;
+        /* border:2px solid green; */
+        font-size:1.5em;
+        padding-left:2em;
+    }
+    p{
+        line-height: 1.2em;
+    }
+    .o_mnie_img_container{
+        image-rendering: auto;
+        background-image:url('http://127.0.0.1:8080/langlo/wp-content/uploads/2022/07/Langlo_oMNie_foto.jpg');
+        background-size:contain;
+        background-repeat:no-repeat;
+        background-position:center;
+        box-shadow:0px 0px 0px 0px transparent; 
+        /* border:2px solid black; */
+        margin-left:0px;
+    }
+    .oMnie_headerMobile{
+        position:absolute;
+    }
+    /* page-kontakt.php */
+    .formularz_label label{
+        margin-bottom:-10px;
+    }
+ }
+ /* mobile xs oraz sm view */
+@media (max-width: 768px) { 
+    .navbar-nav li{
+        display: block;
+        font-size:1.0em; 
+        margin-right:1.0em;
+        margin-left:1.0em;
+    }
+    .navbar-light .navbar-toggler {
+        border-color:transparent;
+    }
+    .front_left{
+        height:100vh;
+        z-index:-100;
+        top:0em;
+        background-color:#b3b0ac;
+        background-position:60% 0px;
+    }
+    .front_page_txt{
+        position:absolute;
+        /* border:3px solid blue; */
+        bottom:0%;
+        width:100%;
+        font-size:8vw;
+        color:black;
+        font-weight: 700;
+        left:2%;
+    }
+    .front_txt_wrapper{
+        position:fixed;
+        bottom:10%;
+        padding-left:25%;
+        padding-right:25%;
+        background-color:#b3b0ac;
+        opacity:0.5;
+        text-align:center;
+    }
+    /* OFERTA_PAGE */
+    .page-id-53{
+        /* background-color: powderblue; */
+        background-color: #e7e6e6;
+        min-height:110vh;
+        height:auto;
+    }
+        /* OFERTA ZAJEC PODSTRONA */
+    .oferta_zajec_row{
+        margin-right: 0px;
+        margin-left:0px;
+    }
+    .oferta_zajec_huge_txt{
+        /* border: 2px solid white;  */
+        height:30vh;
+        padding-left:1%;
+        padding-right:1%;
+        padding-top:5%;
+        padding-bottom:5%;
+        text-align:center;
+        /* border:1px solid black; */
+    }
+    .oferta_zajec_huge_txt h1{
+        font-size:9vh;
+        color:white;
+        font-weight:600;
+        text-shadow:2px 2px 2px grey;
+    }
+    .zajecia_online{
+        border: 2px solid white;
+        text-align:center;
+        margin-bottom:1%;
+        
+    }
+    .zajecia_online p{
+        /* font-size:1.5em; */
+        font-weight:600;
+        margin-top:1.0em;
+        margin-bottom:1.0em;
+    }
+    .text_autora_container{
+        border:transparent;
+        margin-left:0px;
+    }
+    .oferta_zajec_txt_autora{
+        line-height:2.2;
+        color: #212529;
+        font-size:0.6em;
+    }
+    /* cennik-zajec-posts-loop.php */
+    .cennik_zajec_arrow_container{
+        width:20%;
+        /* border:2px solid red; */
+    }
+    .cennik_zajec_usluga_container{
+        width:80%;
+        /* border:2px solid green; */
+        font-size:1.0em;
+    }
+     /* page-kontakt.php */
+     .formularz_label label{
+        margin-bottom:-10px;
+    }
+    /* page-godziny-zajec.php */
+    #godziny_zajec_text_autor_container {
+        padding-top: 50px;
+        padding-bottom: 150px;
+        padding-left: 6vw;
+        font-size: 0.8em;
+    }
+} /* tag konczacy mobile devices  */  
