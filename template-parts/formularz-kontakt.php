@@ -52,7 +52,7 @@ if(isset($_POST['submit']) && empty($err_imie) && empty( $err_email) && empty($e
     ?>
 
         <div class="alert alert-primary" role="alert" id="sentMsgAlert">
-                <h4>Dzięki <?php echo htmlspecialchars($_POST['imie']) ?> za wiadomość<br>
+                <h4>Dziękuję za email.<br>
                 Odpowiem tak szybko jak to możliwe na podany email: 
                 <?php echo htmlspecialchars($_POST['email']) ?>
                 </h4>

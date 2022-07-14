@@ -31,4 +31,24 @@ function langlo_menus(){
 }
 add_action('after_setup_theme' , 'langlo_menus');
 
+//hide confirmation MSG - wyslanyformularz
+function hideFormularz(){
+  if(is_page(62)){
+  ?>
+  <script type="text/javascript">
+    let banner = document.getElementById('sentMsgAlert');
+    console.log(typeof banner);
+    if(banner !== null){
+        // alert('JavaScript w footer dla Page-62');
+        setTimeout(() =>{
+            // alert('OK, chowam banner');
+            banner.style.display = "none";
+        }, "5000")
+    }
+  </script>
+<?php
+  }
+}
+add_action('wp_footer' , 'hideFormularz');
+
 
