@@ -258,6 +258,10 @@ body{
     border-color: #dddcdc;
     background-color:#e7e6e6
 }
+#sentMsgAlert{
+    background-color: #95eb79;
+    border: #65b322;
+}
 @media (min-width: 991.98px){
     .front_left{
         height:110vh;
