@@ -1,5 +1,7 @@
 <?php get_header(); ?>
 
+
+
 <div class="container-fluid">
     <div class="row">
         <?php
@@ -17,9 +19,12 @@
                         </div>-->
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text_autora_container" 
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text_autora_container_oferta_and_godziny" 
                      id="godziny_zajec_text_autor_container">
-                    <p><?php the_content(); ?></p>
+                    <?php // the_content(); ?>
+                    <?php
+                        include 'template-parts/godziny-zajec-posts-loop.php';
+                    ?>
                 </div>              
             <?php
             }

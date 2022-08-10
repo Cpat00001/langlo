@@ -7,8 +7,13 @@ body{
     /* font-family: 'Playfair Display', serif; */
     overflow:hidden;
 }
+.page-id-298{
+    background-color: #e7e6e6;
+    overflow:auto;
+}
 .page-id-53{
     background-color: #e7e6e6;
+    overflow:auto;
 }
 .page-id-56{
     background-color: #e7e6e6;
@@ -132,6 +137,15 @@ body{
     border:2px solid white;
     margin-left:-10px;
 }
+.text_autora_container_oferta_and_godziny{
+    /* border:2px solid white; */
+    margin-left:-10px;
+}
+.oferta_zajec_tile{
+    /* margin-top:20px; */
+    margin-bottom: 0.15rem;
+    /* margin-top:0.15rem; */
+}
 .oferta_zajec_txt_autora{
     line-height:2.2;
     color: #212529;
@@ -147,8 +161,21 @@ body{
     border: transparent;
     /* border: 1px solid white; */
     /* border-top: transparent; */
-    box-shadow:3px 1px 3px 3px rgb(233, 218, 228);
+    box-shadow:3px 1px 3px 3px rgb(184, 182, 182);
     background:linear-gradient(45deg, #e7e6e6, #d8d7d5); 
+ }
+ .godzina_zajec_usluga_box{
+    margin-bottom: 0.15rem;
+    /* line-height: 0.8; */
+    border: transparent;
+    padding-top:0.8em;
+    padding-bottom:0.8em;
+    box-shadow:3px 1px 3px 3px rgb(184, 182, 182);
+    background:linear-gradient(45deg, #e7e6e6, #d8d7d5);
+ }
+ .godziny_zajec_tile{
+    padding-top:0.8em;
+    padding-bottom:0.8em;
  }
  .cennik_zajec_arrow_container{
     width:40%;
@@ -167,9 +194,9 @@ body{
 
 /* page-GODZINY-ZAJEC.php */
 #godziny_zajec_text_autor_container{
-    padding-top:50px;
-    padding-bottom:150px;
-    padding-left:6vw;
+    /* padding-top:50px;
+    padding-bottom:150px; */
+    /* padding-left:6vw; */
 }
 /* page-O-MNIE.php */
 .o_mnie_img_container{
@@ -261,6 +288,15 @@ body{
 #sentMsgAlert{
     background-color: #95eb79;
     border: #65b322;
+}
+/* POLITYKA PRYWATNOSCI */
+.polityka_prywatnosci{
+    margin-left:1%;
+    margin-right:1%;
+}
+.polityka_prywatnosci p{
+    font-size: 1.0em;
+    color:black;
 }
 @media (min-width: 991.98px){
     .front_left{
@@ -421,6 +457,7 @@ body{
         background-color: #e7e6e6;
         min-height:110vh;
         height:auto;
+        /* overflow:auto; */
     }
         /* OFERTA ZAJEC PODSTRONA */
     .oferta_zajec_row{
@@ -458,6 +495,11 @@ body{
     .text_autora_container{
         border:transparent;
         margin-left:0px;
+    }
+    .text_autora_container_oferta_and_godziny{
+        /* border:2px solid white; */
+        margin-left:0px;
+        margin-top: 10px;
     }
     .oferta_zajec_txt_autora{
         line-height:2.2;

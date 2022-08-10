@@ -108,6 +108,12 @@ if(isset($_POST['submit']) && empty($err_imie) && empty( $err_email) && empty($e
                     <span style="color:black;"><p><?php echo $err_wiadomosc ;?></p></span>
                 </div>
             </div>
+            <div class="row polityka_prywatnosci">
+                <p>Twoje dane osobowe będą przetwarzane przez Langlo.pl w celu obsługi przesłanego
+                    zapytania.Szczegóły:
+                    <a href="#">polityka prywatności</a>
+                </p>
+            </div>
     </div>
     <!--<p class="form_pola_wymagane">Wypełnij proszę wszystkie pola formularza.</p>-->
     <input type="submit" name="submit" value="WYSYŁAM" class="btn btn-secondary btn-block mt-2 form_button">

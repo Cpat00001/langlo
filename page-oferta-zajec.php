@@ -17,8 +17,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text_autora_container">
-                    <h5><?php the_content() ?></h5>
+                <div class="col-xs-12 col-sm-12 col-md-7 col-lg-7 text_autora_container_oferta_and_godziny">
+                    <?php // the_content() ?>
+                    <?php
+                        include 'template-parts/oferta-zajec-posts-loop.php';
+                    ?>
                 </div>              
             <?php
             }
@@ -26,5 +29,8 @@
     ?>   
     </div>
 </div>
+
+
+
 
 <?php get_footer() ?>
