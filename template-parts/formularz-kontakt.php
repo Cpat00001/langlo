@@ -109,9 +109,9 @@ if(isset($_POST['submit']) && empty($err_imie) && empty( $err_email) && empty($e
                 </div>
             </div>
             <div class="row polityka_prywatnosci">
-                <p>Twoje dane osobowe będą przetwarzane przez Langlo.pl w celu obsługi przesłanego
+                <p>Twoje dane osobowe będą przetwarzane przez Langlo Dagmara Kamińska w celu obsługi przesłanego
                     zapytania.Szczegóły:
-                    <a href="#">polityka prywatności</a>
+                    <a href="<?php echo esc_url(home_url('/polityka-prywatnosci')); ?>">polityka prywatności</a>
                 </p>
             </div>
     </div>
